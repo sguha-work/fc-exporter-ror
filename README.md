@@ -15,10 +15,11 @@ This program is a controller of RubyOnRails which will export FusionCharts as JP
   
   See this official guide to install ruby [How to install ruby](https://www.ruby-lang.org/en/documentation/installation/)    
   And here is the link to [Getting Started with RubyOnRails](http://guides.rubyonrails.org/getting_started.html)
+  
+  Now if your RubyOnRails project is up and ready to be executable you have to do the following steps
+1.	Copy the "fc_exporter_controller.rb" to the <root>/app/controllers directory
+2.	Open the <root>/config/routes.rb file in text editor and add this line "post 'fc_exporter/init'" where the routes are defined
 
-1.	Upload the folder 'fc-wp' to the '/wp-content/plugins/' directory
-2.	Activate the plugin through the 'Plugins' menu in WordPress, this plugin should be named as "FC-WP"
-3.	Inside any page/post's edit page you will see a button named "Create FusionChart for this Page/Post"
 
 ### Usage Guide
 * After installing the plugin you have to activate the plugin by moving on to the plugins page of wp-admin and clicking on activate of "Fusioncharts For Wordpress" plugin
