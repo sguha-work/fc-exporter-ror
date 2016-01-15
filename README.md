@@ -27,21 +27,19 @@ This program is a controller of RubyOnRails which will export FusionCharts as JP
 
 	First, check that the universe repository is enabled by inspecting '/etc/apt/sources.list' with your favourite editor.
 	
- You will need to use sudo to ensure that you have permissions to edit the file.
+ 	You will need to use sudo to ensure that you have permissions to edit the file.
 
- If universe is not included then modify the file so that it does.
+ 	If universe is not included then modify the file so that it does.
 
- deb http://us.archive.ubuntu.com/ubuntu precise main universe
+ 	deb http://us.archive.ubuntu.com/ubuntu precise main universe
  
- After any changes you should run this command to update your system.
+ 	After any changes you should run this command to update your system.
 
- sudo apt-get update
+ 	sudo apt-get update
  
- You can now install the package like this.
+ 	You can now install the package like this.
 
- Install librmagick-ruby
- 
- sudo apt-get install librmagick-ruby	
+ 	sudo apt-get install librmagick-ruby	
  
 2. json: just use "gem install json" 
 
