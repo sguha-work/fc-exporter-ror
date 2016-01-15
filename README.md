@@ -20,7 +20,9 @@ This program is a controller of RubyOnRails which will export FusionCharts as JP
   
 1.	Copy the "fc_exporter_controller.rb" to the <root>/app/controllers directory
 2.	Open the <root>/config/routes.rb file in text editor and add this line "post 'fc_exporter/init'" where the routes are defined
+
   There are 2 dependencies of the program, you have to install those gem also
+  
 1. rmagick: For this don't use "gem install rmagick" use the following steps
 	First, check that the universe repository is enabled by inspecting '/etc/apt/sources.list' with your favourite editor.
  You will need to use sudo to ensure that you have permissions to edit the file.
