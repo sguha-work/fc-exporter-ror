@@ -17,6 +17,7 @@ This program is a controller of RubyOnRails which will export FusionCharts as JP
   And here is the link to [Getting Started with RubyOnRails](http://guides.rubyonrails.org/getting_started.html)
   
   Now if your RubyOnRails project is up and ready to be executable you have to do the following steps
+  
 1.	Copy the "fc_exporter_controller.rb" to the <root>/app/controllers directory
 2.	Open the <root>/config/routes.rb file in text editor and add this line "post 'fc_exporter/init'" where the routes are defined
 
