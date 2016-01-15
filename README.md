@@ -3,8 +3,8 @@ FusionCharts export handler in RubyOnRails
 
 * Author: Sahasrangshu Guha
 * Author URI: https://github.com/sguha-work/
-* Requires at least: ruby 1.9.3p484 (2013-11-22 revision 43786) [i686-linux], Rails 4.2.5
-* Tested up to: ruby 1.9.3p484 (2013-11-22 revision 43786) [i686-linux], Rails 4.2.5
+* Requires at least: Ruby 1.9.3p484 (2013-11-22 revision 43786) [i686-linux], Rails 4.2.5
+* Tested up to: Ruby 1.9.3p484 (2013-11-22 revision 43786) [i686-linux], Rails 4.2.5
 * Stable tag: 0.1
 * Version: 0.1 
 
@@ -21,7 +21,7 @@ This program is a controller of RubyOnRails which will export FusionCharts as JP
 1.	Copy the "fc_exporter_controller.rb" to the <root>/app/controllers directory
 2.	Open the <root>/config/routes.rb file in text editor and add this line "post 'fc_exporter/init'" where the routes are defined
 
-  There are 2 dependencies of the program, you have to install those gem also
+There are 2 dependencies of the program, you have to install those gem also
   
 1. rmagick: For this don't use "gem install rmagick" use the following steps
 
