@@ -12,7 +12,9 @@ This program is a controller of RubyOnRails which will export FusionCharts as JP
 
 ### Installing
   Providing the links of guide to install ruby and RubyOnRails on system first
-  See this official guide to install ruby [How to install ruby](https://www.ruby-lang.org/en/documentation/installation/)    And here is the link to [Getting Started with RubyOnRails](http://guides.rubyonrails.org/getting_started.html)
+  
+  See this official guide to install ruby [How to install ruby](https://www.ruby-lang.org/en/documentation/installation/)    
+  And here is the link to [Getting Started with RubyOnRails](http://guides.rubyonrails.org/getting_started.html)
 
 1.	Upload the folder 'fc-wp' to the '/wp-content/plugins/' directory
 2.	Activate the plugin through the 'Plugins' menu in WordPress, this plugin should be named as "FC-WP"
